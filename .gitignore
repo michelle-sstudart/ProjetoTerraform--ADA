@@ -1,0 +1,37 @@
+# Ignorar arquivos de configuração do VS Code
+.vscode/
+
+#Ignorar arquivos de build
+build/ dist/
+
+#Ignorar dependências
+node_modules/
+
+#ignorar arquivos temporários
+*.log *.tmp
+
+#ignorar arquivos terraform
+.terraform/
+.terraform.lock.hcl
+
+*.tfstate
+*.tfstate.*
+
+crash.log
+*.log
+
+*.tfvars
+*.tfvars.json
+
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+planfile
+*.tfplan
+
+.aws/credentials
+.aws/config
+
+assets/*.png
