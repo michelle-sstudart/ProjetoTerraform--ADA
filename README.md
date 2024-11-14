@@ -60,7 +60,7 @@ Se você ainda não tem o Git instalado, siga os passos abaixo:
 
 1. Para Windows:
 
-Acesse Git for Windows (https://gitforwindows.org/) e siga as instruções de instalação.
+Acesse [Git for Windows](https://gitforwindows.org/) e siga as instruções de instalação.
 
 2. Para macOS:
 
@@ -128,13 +128,13 @@ Se você deseja contribuir para este projeto, siga os passos abaixo:
 1.  Faça um fork do repositório.
 
 2.  Crie uma nova branch para suas modificações:
-git checkout -b nome-da-branch
+``git checkout -b nome-da-branch``
 
 3. Faça suas alterações e adicione um commit.
-git push origin nome-da-branch
+``git push origin nome-da-branch``
 
 4. Envie suas alterações para o seu fork:
-git push origin nome-da-branch
+``git push origin nome-da-branch``
 
 5. Abra um Pull Request (PR) para o repositório principal.
 
